@@ -28,6 +28,7 @@ public class multiWindow_git1 {
 	    		driver.switchTo().window(child);
 	    		Thread.sleep(1000);
 	    		driver.close();
+	    		//Comment 1
 	    	}
 	    }
 	    }catch(Exception e) {
